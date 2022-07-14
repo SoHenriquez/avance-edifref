@@ -46,7 +46,7 @@
         </section>
         <div class="container">
             <!-- Listar Tabla de Avisos -->
-            <table class="table">
+            <table class="table table-striped">
                 <thead>
                     <tr class="bg-primary" style="color:white">
                     <th scope="col-1">#</th>

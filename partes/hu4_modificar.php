@@ -25,7 +25,7 @@
                 <?php  if($consultaAvisos): foreach($consultaAvisos as $row): ?>
                   <?php  if($_GET['id'] == $row['form_clave']){?>
                   <!-- Formulario Crear nuevo Aviso de Conserjería -->
-                <form action="../partes/hu4_modificar.php"  method="POST">
+                <form action="../controlador/hu4_controlador_conserjeria/hu4_modificar_aviso.php"  method="POST">
                   <div class="row">
                     <div class="col-4">
                       <div>
@@ -75,7 +75,7 @@
                   <input type="hidden" name="form_clave" value="<?php echo $row['form_clave']; ?>">
 
                   <?php }?>
-                <?php endforeach; endif ?>
+                  <?php endforeach; endif ?>
                 </form>
             </div>
         </section>
